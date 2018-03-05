@@ -5,16 +5,25 @@
 <title>Andrew rendyanto</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
 body {
-  margin: 0;
-}
+background: url(0.jpeg) no-repeat fixed;
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+   text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 15px
 
-/* Style the header */
+}
 .header {
-	background-color: #093d4bad;
     padding:100px;
-    text-align: center;
+    text-align: right;
 }
 
 /* Style the top navigation bar */
@@ -35,7 +44,7 @@ body {
 /* Change color on hover */
 .topnav a:hover {
     background-color: #002033;
-    color: rgb(56, 37, 37);
+    color: rgb(110, 23, 23);
 }
 
 /* Style the footer */
@@ -47,27 +56,36 @@ body {
 </style>
 </head>
 <body>
-<div class="header">
-	<img src="andrew.jpg" width="300px" height="300px">
-    <h2><i>ANDREW RENDYANTO</i></h2></di>
+        <div class="container">  
+        <div style="text-align: justify">
+         <img src="andrew.jpg" class="img-circle" width="60" height="56">
+         <h5 style="font-family:'Courier New', Courier, monospace">ANDREW RENDYANTO</h5></di></div>
+         <div class="container">  
+    
+                <img src="fjords.jpg" class="img-circle" width="240" height="236">
+                <h3 style="font-family:'Courier New', Courier, monospace">ANDREW RENDYANTO</h3></di>                    
 <div class="topnav">
-	<a href="#">Beranda</a>
-	<a href="#">Profil image</a>
-	<a href="#">pendidikan</a>
-	<a href="#">Pekerjaan</a>
-	<a href="#">Bantuan</a>
+	<a href="beranda/beranda.html">Beranda</a>
+	<a href="profile/profile.html">Profil image</a>
+	<a href="Pendidikan/pendidikan.html">pendidikan</a>
+	<a href="pekerjaan/pekerjaan.html">Pekerjaan</a>
+	<a href="bantuan/bantuan.html">Bantuan</a>
   </div>
   <body>
-      <h3 style="text-align: center"><i>Welcome to my website</i></h3>
+      <h2 style="text-align: center"><i>Welcome to my website</i></h2>
        <br>
        <br>    
-       <form action="proses.php" method="post">
-            <table>
-                            <tr><td>Nama :</td><td><input type="text" name="nama"/></td></tr>
-                            <tr><td>email:</td><td><input type="text" name="email"/></td></tr>
-                            <tr><td>pesan:</td><td><textarea cols="30" rows="4"></textarea></td></tr>
-                            <tr><td></td><td><input type="submit" value="kirim pesan"/></td></tr>
-            </table>
-            </form>
+       <div class= "form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <br><label for="pwd">Email:</label>
+            <br><input type="email" class="form-control" id="pwd">
+            <br><label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+            <br><button type="submit.html" class="btn btn-default">send</button>
+          </div>
+        </form>
 </body>
 </html>
