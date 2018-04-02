@@ -1,17 +1,219 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="wrap">
-		<div class="header">			
-    
-            <h1>CSS</h1>
-            
-        </div>		<div class="menu">
+<title>Andrew</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="i.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Andrew Rendyanto.</h1>
+    <p>Web Developer.</p>
+    <img src="i.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div id="jd-position1">	
+    <div class="rt-container">
+    <div class="rt-grid-12 rt-alpha rt-omega">
+       <div class="rt-block Default Button">
+       <div class="module-surround">
+                                   <div class="module-content">
+                    <div class="sprocket-grids-b" data-grids="136">
+<ul class="sprocket-grids-b-container sprocket-grids-b-columns-3" data-grids-items>
+<li data-grids-item>
+<div class="sprocket-grids-b-item" data-grids-content>
+        <div class="sprocket-grids-b-image-container">
+    <img src="/web/cache/mod_roksprocket/928b0e8ad475b97fe8393953237d848c_0_0.png" alt="Visi dan Misi" class="sprocket-grids-b-image" />
+                <div class="sprocket-grids-b-effect"></div>
             </div>
-	</div>
-    </body>
-    </html>
+
+        <div class="sprocket-grids-b-content overlay-mode">
+                <h2 class="sprocket-grids-b-title">
+        <a href="/web/tentang-unsimar/visi-misi">					Visi dan Misi				</a>			</h2>
+    
+                <div class="sprocket-grids-b-text">
+        VISI Terwujudnya Unsimar sebagai Perguruan Tinggi yang berdaya saing Nasional dan bermartabat pada tahun 2031. MISI Menyediakan lingkungan belajar berkualitas untuk mengembangkan kapasitas pembelajar yang inovatif dan proaktif. Menyelenggarakan dan meningkatkan mutu pendidikan yang berdaya saing dan bermartabat<span class="roksprocket-ellipsis">…</span>			</div>
+    
+                <a href="/web/tentang-unsimar/visi-misi" class="sprocket-grids-b-readon">Read more</a>
+            </div>
+    </div>
+</li>
+<li data-grids-item>
+<div class="sprocket-grids-b-item" data-grids-content>
+        <div class="sprocket-grids-b-image-container">
+    <img src="/web/cache/mod_roksprocket/9d70afcb35f247b36ab7373b19fcbf44_0_0.png" alt="About the university" class="sprocket-grids-b-image" />
+                <div class="sprocket-grids-b-effect"></div>
+            </div>
+
+        <div class="sprocket-grids-b-content overlay-mode">
+                <h2 class="sprocket-grids-b-title">
+        <a href="/web/about-the-university">					About the university				</a>			</h2>
+    
+                <div class="sprocket-grids-b-text">
+        Universitas Sintuwu Maroso (UNSIMAR) adalah perguruan tinggi pertama di Kota Poso. Didirikan pada tahun 1986, yang dilandasi oleh kesadaran akan pentingnya pendidikan tinggi bagi sumber daya manusia yang dimiliki bumi sintuwu maroso pada masa itu demi memajukan daerah<span class="roksprocket-ellipsis">…</span>			</div>
+    
+                <a href="/web/about-the-university" class="sprocket-grids-b-readon">Read more</a>
+            </div>
+    </div>
+</li>
+<li data-grids-item>
+<div class="sprocket-grids-b-item" data-grids-content>
+        <div class="sprocket-grids-b-image-container">
+    <img src="/web/cache/mod_roksprocket/41eaebcb02c6c1a19649d5fa536b76e7_0_0.png" alt="Study at UNSIMAR" class="sprocket-grids-b-image" />
+                <div class="sprocket-grids-b-effect"></div>
+            </div>
+
+        <div class="sprocket-grids-b-content overlay-mode">
+                <h2 class="sprocket-grids-b-title">
+        <a href="/web/study-at-unsimar">					Study at UNSIMAR				</a>			</h2>
+    
+                <div class="sprocket-grids-b-text">
+         Poso sebuah Kabupaten di Sulawesi Tengah adalah kota beriklim tropis dan sejuk dengan temperatur antara 20-28°C. Bumi Sintuwu Maroso merupakan sebutan lain dari kota ini karena keindahannya ditambah keramah tamahan penduduknya, sehingga Poso merupakan tempat yang menyenangkan untuk<span class="roksprocket-ellipsis">…</span>			</div>
+    
+                <a href="/web/study-at-unsimar" class="sprocket-grids-b-readon">Read more</a>
+            </div>
+    </div>
+</li>
+</ul>
+</div>
+                </div>
+            </div>
+   </div>
+
+</div>
+    <div class="clear"></div>
+</div>
+</div>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:45%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:35%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:20%"></div>
+    </div><br>
+    <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+  
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="a.jpg" style="width:100%">
+        <img src="b.jpg" style="width:100%">
+        <img src="c.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="d.jpg" style="width:100%">
+        <img src="e.jpg" style="width:100%">
+        <img src="f.jpg" style="width:100%">
+        <img src="i.jpg" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> jakarta,indonesia</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +62-822-714-393-29</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: Andrewrendyanto99@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+   <!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="www.Facebook.com/AnDrew Rendyanto" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="www.instagram.com/AnDrew Rendyanto" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="www.facebook.com/AnDrew Rendyanto" target="_blank">Andrew Rendyanto</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+
+</div>
+
+</body>
+</html>
